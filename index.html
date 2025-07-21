@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Google Drive Video</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Arduino based self obstacle car</h1>
+    
+    <div class="video-container">
+        <iframe src="https://drive.google.com/file/d/174HV8Ot7jR-F4v7hEuqc_VcC83jKK3V7/preview" 
+                allow="autoplay; fullscreen" 
+                allowfullscreen></iframe>
+    </div>
+    
+    <p>This video is hosted on Google Drive and embedded on this webpage.</p>
+</body>
+</html>
